@@ -1,0 +1,125 @@
+.conteiner{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 187, 0);
+}
+.up{
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-left: 100px;
+}
+.up ul{
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+.up ul li{
+    display: inline-block;
+    padding: 0px;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 0px;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+
+.down{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+}
+.search{
+    height: 32px;
+    width: 550px;
+    background-color: white;
+    border-radius: 5px;
+}
+.search input{
+    width: 480px;
+    height: 30px;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.search button{ 
+    border: 10px;
+    border-color: white;
+    vertical-align: middle;
+}
+.search button img{
+    width: 25px;
+    vertical-align:middle;
+}
+.content{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+.content li{
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.content li img{
+    max-width: 100%;
+    height: auto;
+}
+a.item-name{
+    display: block;
+    text-decoration: none;
+    color: #334862;
+    font-size: 25px;
+}
+div.item-gia{
+    display: block;
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+div.item{
+    position: relative;
+}
+div.item-top{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+a.item-ou img{
+    display: block;
+}
+a.buy{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 10px   0px;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+    transition: 0.4s   ease-in-out;
+    opacity: 0.85;
+}
+.content li:hover a.buy{
+    bottom: 0px;
+}
+ul.content li:hover  .item-ou img{
+    filter: opacity(80%);   
+}
